@@ -15,6 +15,9 @@ public class App extends Application {
     private static DaoMaster sDaoMaster;
     private static DaoSession sDaoSession;
 
+
+
+
     public static DaoMaster getDaoMaster(Context mContext) {
         if (sDaoMaster == null) {
             DaoMaster.OpenHelper helper = new DaoMaster.DevOpenHelper(mContext, dbName);
